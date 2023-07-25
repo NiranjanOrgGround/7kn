@@ -4,4 +4,4 @@ class Simple{
     }  
 }  
 
-// This is a comment
+// comment
