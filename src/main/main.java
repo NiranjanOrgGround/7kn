@@ -5,4 +5,3 @@ class Simple{
 }  
 
 // This is comment
-// build
