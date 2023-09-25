@@ -13,7 +13,7 @@ jobs:
           script: |
             github.rest.issues.addLabels({
               issue_number: context.issue.number,
-              owner: context.org.repo.owner,
-              repo: context.org.repo,
+              owner: context.repo.repo.owner,
+              repo: context.repo.repo,
               labels: ['Triage']
             })
