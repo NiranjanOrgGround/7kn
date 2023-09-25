@@ -14,6 +14,6 @@ jobs:
             github.rest.issues.addLabels({
               issue_number: context.issue.number,
               owner: context.org.repo.owner,
-              repo: context.org.repo.repo,
+              repo: context.org.repo,
               labels: ['Triage']
             })
