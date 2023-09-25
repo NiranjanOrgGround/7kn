@@ -2,7 +2,7 @@ name: Comment on an issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   apply-label:
