@@ -7,4 +7,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This action is triggered by \e[1m${{ github.event_name }}\e[0m event"
+      - run: echo -e "This action is triggered by \e[1m${{ github.event_name }}\e[0m event"
