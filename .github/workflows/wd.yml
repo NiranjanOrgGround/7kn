@@ -7,4 +7,4 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This action is triggered by ${{github.event.name}} event"
+      - run: echo "This action is triggered by ${{github.event.type.name}} event"
