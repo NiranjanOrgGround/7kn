@@ -1,0 +1,9 @@
+name: kubectl test
+
+on: push
+
+jobs:
+  kubectl:
+    runs-on: ubuntu-latest
+    steps:
+      - run: kubectl --version
