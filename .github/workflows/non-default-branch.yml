@@ -1,0 +1,10 @@
+name: workflow_dispatch for non-default-branch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The Action is triggered by \033[1m$GITHUB_EVENT_NAME\033[0m event."
