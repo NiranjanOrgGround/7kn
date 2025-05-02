@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Event Name
-        run: echo -e "This action is triggered by \033[1m${{ github.event_name }}\033[0m event"
+        run: echo -e "This action is triggered by \033[1m${{ github.event_name }}\033[0m event.."
